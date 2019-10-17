@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { PropTypes } from 'prop-types';
 
 import { Row } from 'antd';
+
 export default class Index extends Component {
   constructor(props) {
     super(props);
@@ -12,17 +13,17 @@ export default class Index extends Component {
 
   _handleClick() {
     this.setState({
-      count: ++this.state.count
+      count: 1 + this.state.count
     });
   }
 
   render() {
     return (
       <div>
-        this is home~
-        <br />
-        当前计数：{this.state.count}
-        <br />
+        <div>this is home~</div>
+
+        <div>当前计数：{this.state.count}</div>
+
         <button onClick={() => this._handleClick()}>自增</button>
       </div>
     );

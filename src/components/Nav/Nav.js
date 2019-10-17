@@ -29,6 +29,9 @@ export default class Nav extends Component {
         <Menu.Item key='antd'>
           <Link to='/antd'>Antd</Link>
         </Menu.Item>
+        <Menu.Item key='task'>
+          <Link to='/task'>TaskManager</Link>
+        </Menu.Item>
       </Menu>
     );
   }
