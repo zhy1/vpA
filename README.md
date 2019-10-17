@@ -1,3 +1,5 @@
+Cross-Platform Video Player for Fast Preview
+
 mb:react-mobx-antd-boilerplate zy$ git remote -v
 origin  https://github.com/moxun33/react-mobx-antd-boilerplate (fetch)
 origin  https://github.com/moxun33/react-mobx-antd-boilerplate (push)
